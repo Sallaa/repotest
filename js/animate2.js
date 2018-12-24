@@ -13,6 +13,14 @@ $(document).ready(function ($) {
         else
             i++;
     });
+    $("#teste2").click(function () {
+        // alert("Handler for .click() called.");
+        $("#image-6").attr("xlink:href", imgPath[i]).fadeIn("slow");
+        if(imgPath.length == i)
+            i = 0;
+        else
+            i--;
+    });
 });
 
 var i=0;
