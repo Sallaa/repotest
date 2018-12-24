@@ -11,7 +11,7 @@ $(document).ready(function () {
             {
             animation: 'zoom',
             duration: 500,
-            function () {
+            onComplete: function () {
                 toto();
             }
         }
